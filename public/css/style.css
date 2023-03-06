@@ -180,6 +180,12 @@
 }
 
 @media screen and (max-width: 1280px) and (min-width: 280px) {
+  .rightSide h3 {
+    margin-top: 250px !important;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 280px) {
   .container.verify {
     transform: translate(-50%, -59%) !important;
     width: 350px !important;
@@ -687,7 +693,7 @@ html, body {
 }
 
 .rightSide h3 {
-  margin-top: 450px;
+  margin-top: 600px;
   font-family: 'Pridi', serif;
   font-size: var(--fs-800);
   font-weight: bold;
